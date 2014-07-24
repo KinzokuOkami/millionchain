@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = 'mysql://127.12.67.129:3306';
 $db['default']['username'] = 'adminyKCdsU5';
 $db['default']['password'] = 'zwvxTkfLmD1Y';
 $db['default']['database'] = 'millionchain';
