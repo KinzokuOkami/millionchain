@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'mysql.idhostinger.com';
-$db['default']['username'] = 'u414839909_mc';
-$db['default']['password'] = 'brgu23P:>+x&';
-$db['default']['database'] = 'u414839909_mcdb';
+$db['default']['hostname'] = $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
+$db['default']['username'] = 'adminyKCdsU5';
+$db['default']['password'] = 'zwvxTkfLmD1Y';
+$db['default']['database'] = 'millionchain';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
