@@ -1,0 +1,297 @@
+a:hover {
+	/*text-decoration:underline;*/
+}
+
+input[type="checkbox"] {
+	margin:0 10px 0 0;
+}
+
+/*=====================================
+	Login 
+=====================================*/
+
+.textbox {
+	margin:0 0 20px 0;
+	padding:5px;
+	
+	width:350px;
+	
+	border:1px solid #e99;
+	outline:none;
+	
+	font:inherit;
+	color:#d33;
+	
+	border-radius:3px;
+}
+
+.textbox:focus {border:1px solid #c22;}
+.textbox-label {margin:6px 0 0 0;}
+
+.button {
+	padding:5px 10px;
+	
+	outline:0;
+	border:0;
+	
+	font:inherit;
+	color:#fff;
+	
+	background:#32B2E6;
+	
+	border-radius:2px;
+}
+
+.button:hover {
+	background:#21A1D5;
+}
+
+.login-pusher {
+	margin:45px 0 0 0;
+}
+
+#login {
+	position:relative;
+	margin:auto;
+	padding:40px 0;
+	
+	width:350px;
+	text-align:right;
+	vertical-align:middle;
+}
+
+#logo-login {
+	
+	width:350px;
+	height:220px;
+	background:center no-repeat url('../../images/logo.png');
+	background-size:100%;
+}
+
+/*=====================================
+	Custom 
+=====================================*/
+
+.c-accordion-item {
+	position:relative;
+}
+
+.c-add {
+	position: absolute !important;
+	right: 0;
+	top: 0;
+	border:none !important;
+	padding: 10px 16px !important;
+	margin:0;
+}
+
+.c-empty-record {
+	text-align:center !important;
+}
+
+#c-uploaded-file, #c-uploaded-file2, #c-uploaded-icon {
+	display:none;
+	margin:0 0 10px 0;
+	
+	width:auto;
+	height:200px;
+}
+
+#c-uploaded-icon {height:112px;}
+
+.c-file:hover {cursor:pointer;}
+
+.c-list-image {
+	width:auto;
+	height:50px;
+}
+
+.c-hidden {
+	display:none !important;
+}
+
+.c-header-link {
+	border-top:2px solid transparent;
+}
+
+.c-header-link:hover {
+	border-top:2px solid #d22;
+}
+
+#c-remove-pic, #c-remove-pic2, #c-remove-icon {
+	display:block;
+	margin: 10px 0;
+	
+	font-size:12px;
+}
+
+#c-remove-pic:hover, #c-remove-pic2:hover, #c-remove-icon:hover {text-decoration:underline; cursor:pointer;}
+
+.c-input-add, .c-input-remove {
+	display:inline-block;
+	vertical-align:top;
+	
+	margin:0 0 0 5px;
+	padding:8px;
+}
+
+.c-input-add:hover, .c-input-remove:hover {
+	cursor:pointer;
+	color:#777;
+}
+
+.c-casts-input-container,.c-writers-input-container,.c-funfacts-input-container,.c-genre-input-container,.c-release-input-container {
+	margin:0 0 5px 0;
+}
+
+.c-casts-add-item,.c-writers-add-item,.c-release-add-item {
+	display:inline-block;
+	vertical-align:middle;
+	
+	width:206px;
+	height:30px;
+	
+	padding:2px 7px;
+	
+	color: #777;
+	font-weight: bold;
+}
+
+.c-funfacts-add-item,.c-genre-add-item {
+	display:inline-block;
+	vertical-align:middle;
+	
+	padding:2px 7px;
+	
+	color: #777;
+	font-weight: bold;
+}
+
+.c-form-separator {
+	margin:30px 50px;
+	border-bottom:1px dashed #ddd;
+}
+
+.c-release-date-country {
+	position:relative;
+	top:2px;
+	width:206px;
+}
+
+.c-radio {
+	position:relative;
+	top:4px;
+	
+	margin:0 5px !important;
+}
+
+.c-radio-label {
+	position:relative;
+	top:5px;
+	
+	margin:2px 15px 0 0;
+}
+
+.c-label-black {background-color:#333;}
+.c-label-blue {background-color:blue;}
+.c-label-purple {background-color:purple;}
+
+.c-required {font-size:20px;color:#f00;}
+
+/*=====================================
+	Masonry
+=====================================*/
+
+.gallery-item{
+	width:180px;
+	margin:10px;
+	float:left;
+}
+
+/*=====================================
+	Overwrite 
+=====================================*/
+
+.navbar-fixed-top .navbar-inner {
+	padding:10px;
+	height:auto;
+	background:#fff;
+}
+
+.top-menu > ul {
+	position:relative;
+	top:10px;
+}
+
+.top-menu > ul > li > a {
+	color:#32B2E6;
+}
+
+.logo {
+	padding:0;
+}
+
+.nav-collapse.collapse {
+	top:86px;
+}
+
+.accordion-group {margin:0;}
+
+.accordion-heading, .nav-collapse.collapse {
+	background:#fff;
+}
+
+.accordion-heading a {
+	color:#32B2E6;
+	border:0;
+
+	border-left:5px solid #fff;
+}
+
+.accordion-inner {
+	background-color: #32B2E6;
+	padding: 2px 0;
+}
+
+.accordion-inner i {
+	margin:0 5px 0 0;
+}
+
+.accordion-inner a {
+	margin:5px 0;
+	border-left: 3px solid #32B2E6;
+	font-size:12px;
+}
+
+.accordion-inner a:hover {
+	border-left: 3px solid #fff;
+}
+
+.accordion-inner .accordion-toggle.active {
+	border-left: 3px solid #7FD4FF;
+}
+
+.accordion-group a {
+	padding: 8px 38px;
+}
+
+.accordion-inner .c-add {
+	top:-3px;
+	right:20px;
+}
+
+.b_32B2E6:hover {
+  border-left: 5px solid rgba(50,178,230,.4);
+}
+
+.b_32B2E6.active{
+  border-left: 5px solid #32B2E6;
+}
+
+.main_container > .row-fluid {
+	position: relative;
+	top: 40px;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.controls {position:relative;} /*def: static*/
