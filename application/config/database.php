@@ -44,16 +44,19 @@
 | The $active_record variables lets you determine whether or not to load
 | the active record class
 */
-$openshiftsocket = getenv('OPENSHIFT_MYSQL_DB_SOCKET');
-if (isset($openshiftsocket)) {
-   ini_set('mysql.default_socket', $openshiftsocket);
-}
+define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
+define('DB_PORT',getenv('OPENSHIFT_MYSQL_DB_PORT')); 
+define('DB_USER',getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
+define('DB_PASS',getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+define('DB_NAME',getenv('OPENSHIFT_GEAR_NAME'));
+
+$dsn = 'mysql:dbname='.DB_NAME.';host='.DB_HOST.';port='.DB_PORT;
+$dbh = new PDO($dsn, DB_USER, DB_PASS);
 
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'OPENSHIFT_MYSQL_DB_HOST';
-$db['default']['hostname'] = 'OPENSHIFT_MYSQL_DB_PORT';
+$db['default']['hostname'] = $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
 $db['default']['username'] = 'adminyKCdsU5';
 $db['default']['password'] = 'zwvxTkfLmD1Y';
 $db['default']['database'] = 'millionchain';
